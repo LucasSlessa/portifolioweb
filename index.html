@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lucas de Oliveira Lessa — Eng. Computação | PO | PM | DevOps</title>
+    <meta name="description" content="Portfólio de Lucas Lessa — Engenheiro da Computação, Product Owner, Project Manager e DevOps. Experiência em firmware C/C++ e Python, integração de sensores, condicionamento de sinal e liderança técnica." />
+    <meta name="keywords" content="Lucas Lessa, Engenheiro da Computação, Product Owner, Project Manager, DevOps, Firmware C, C++, Python, Sensores, I2C, SPI, UART, Condicionamento de Sinal" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Lucas de Oliveira Lessa — Eng. Computação | PO | PM | DevOps" />
+    <meta property="og:description" content="Portfólio moderno com foco em produto, engenharia e DevOps." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lucaslessa.alutechnology.tech/" />
+    <meta property="og:image" content="/assets/og-cover.svg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lucas de Oliveira Lessa — Eng. Computação | PO | PM | DevOps" />
+    <meta name="twitter:description" content="Portfólio moderno com foco em produto, engenharia e DevOps." />
+    <meta name="twitter:image" content="/assets/og-cover.svg" />
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Lucas de Oliveira Lessa",
+      "jobTitle": "Engenheiro da Computação, Product Owner, Project Manager, DevOps",
+      "email": "mailto:lessalucas1102@gmail.com",
+      "telephone": "+55-12-99618-1553",
+      "url": "https://lucaslessa.alutechnology.tech/",
+      "sameAs": [
+        "https://www.linkedin.com/in/lucas-lessa-engcomp"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "São José dos Campos",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidade do Vale do Paraíba"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <canvas id="bg-grid" aria-hidden="true"></canvas>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="nav">
+      <div class="brand">
+        <span class="dot"></span>
+        <span class="logo-text">Lessa</span>
+      </div>
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#resumo">Resumo</a>
+        <a href="#competencias">Competências</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#certificacoes">Certificações</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="./images/curriculo.pdf" class="pill" title="Baixar currículo em PDF" download>Baixar CV</a>
+        <a href="#contato" class="pill">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="inicio" class="section hero">
+        <div class="hero-grid">
+          <div class="col-left" data-reveal>
+            <figure class="avatar-wrap">
+              <img class="avatar" src="./images/fundos1.jpeg" alt="Foto de Lucas de Oliveira Lessa" />
+            </figure>
+          </div>
+          <div class="col-right">
+            <div class="eyebrow" data-reveal>Eng. da Computação • PO • PM • DevOps</div>
+            <h1 class="glow" data-reveal>Lucas de&nbsp;Oliveira&nbsp;Lessa</h1>
+            <p class="subtitle" data-reveal>
+              Integro produto, engenharia e operações para entregar soluções escaláveis e alinhadas ao negócio.
+            </p>
+            <div class="badges" data-reveal>
+              <span class="badge">Firmware C/C++ & Python</span>
+              <span class="badge">Sensores: I²C • SPI • UART</span>
+              <span class="badge">Condicionamento de Sinal & Filtros</span>
+              <span class="badge">Cloud & DevOps</span>
+            </div>
+            <div class="cta" data-reveal>
+              <a class="btn primary" href="#contato">Falar comigo</a>
+              <a class="btn ghost" href="https://www.linkedin.com/in/lucas-lessa-engcomp" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="btn ghost" href="./images/curriculo.pdf" download>Baixar CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiência em destaque -->
+      <section id="exp-destaque" class="section" data-reveal>
+        <h2>Experiência em destaque</h2>
+        <div class="grid featured">
+          <article class="featured-card card-sm">
+            <img class="brand-logo" src="./images/agrovisia_logo.jpeg" alt="Agrovisia" />
+            <div class="when">Agrovisia · 2025 — Atual</div>
+            <h3>TT-3 FAPESP — Eletrônica & Firmware</h3>
+            <p>Sensor de nutrientes: condicionamento de sinal, ADC, mitigação de ruído, integração de sensores, calibração e documentação.</p>
+            <ul class="tags">
+              <li>C/C++</li><li>Python</li><li>I²C</li><li>SPI</li><li>UART</li><li>ADC</li>
+            </ul>
+          </article>
+          <article class="featured-card card-sm">
+            <img class="brand-logo" src="./images/logoalencar.png" alt="Alencar Consultorias" />
+            <div class="when">Alencar Consultorias · 2025</div>
+            <h3>Analista de Sistemas — Produto & Engenharia</h3>
+            <p>Levantamento de requisitos, priorização e entrega técnica alinhada ao negócio. Stack: Next.js, TypeScript, Tailwind, PostgreSQL, AWS, Docker.</p>
+            <ul class="tags">
+              <li>Next.js</li><li>TypeScript</li><li>PostgreSQL</li><li>AWS</li><li>Docker</li>
+            </ul>
+          </article>
+          <article class="featured-card card-sm">
+            <img class="brand-logo" src="./assets/logo-alutechnology.svg" alt="Alutechnology" />
+            <div class="when">Alutechnology · 2024 — 2025</div>
+            <h3>CTO — Produto Digital</h3>
+            <p>Definição de requisitos, roadmap e deploy contínuo com foco em escalabilidade e valor de negócio.</p>
+            <ul class="tags">
+              <li>Produto</li><li>Roadmap</li><li>Escalabilidade</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projetos -->
+      <section id="projetos" class="section" data-reveal>
+        <h2>Projetos</h2>
+        <div class="grid projects">
+          <article class="project-card card-sm">
+            <div class="when">Agrovisia · 2025</div>
+            <h3>Sensor de Nutrientes — Eletrônica & Firmware</h3>
+            <p>Desenvolvimento de solução para medição de nutrientes em solo/vinhaça, com condicionamento de sinal, ADC, mitigação de ruído, firmware e integração de sensores.</p>
+            <ul class="tags">
+              <li>C/C++</li><li>Python</li><li>I²C</li><li>SPI</li><li>UART</li><li>ADC</li>
+            </ul>
+          </article>
+          <article class="project-card card-sm">
+            <div class="when">Univap · 2024</div>
+            <h3>Sistema MRP — Planejamento de Produção</h3>
+            <p>Aplicação web com foco em planejamento e controle de produção, cobrindo do desenho à implementação.</p>
+            <ul class="tags">
+              <li>PHP</li><li>Laravel</li><li>React</li><li>Tailwind</li><li>MySQL</li>
+            </ul>
+          </article>
+          <article class="project-card card-sm">
+            <div class="when">Alutechnology · 2024-2025</div>
+            <h3>Plataforma Sob Medida — Produto Digital</h3>
+            <p>Definição de requisitos, priorização e entrega contínua com foco em escalabilidade e aderência ao negócio.</p>
+            <ul class="tags">
+              <li>Next.js</li><li>TypeScript</li><li>PostgreSQL</li><li>Docker</li><li>AWS</li>
+            </ul>
+            <div class="cta">
+              <a class="btn ghost" href="https://lucaslessa.alutechnology.tech/" target="_blank" rel="noopener">Ver portfólio</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Resumo -->
+      <section id="resumo" class="section card" data-reveal>
+        <h2>Resumo</h2>
+        <p>
+          Sou Engenheiro da Computação com atuação integrada em gestão de produto, liderança técnica e operações DevOps. Especialista em desenvolver soluções escaláveis, liderar squads multidisciplinares e alinhar entregas técnicas com objetivos de negócio. Experiência em todo o ciclo de vida de sistemas, da concepção à implantação contínua em ambiente produtivo.
+        </p>
+        <div class="quick-stats">
+          <div class="stat">
+            <span class="kpi">DevOps</span>
+            <span class="kpi-sub">CI/CD • Docker • AWS</span>
+          </div>
+          <div class="stat">
+            <span class="kpi">Produto</span>
+            <span class="kpi-sub">Discovery • Priorizações • Roadmap</span>
+          </div>
+          <div class="stat">
+            <span class="kpi">Firmware</span>
+            <span class="kpi-sub">C/C++ • Python • Integração</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Competências -->
+      <section id="competencias" class="section" data-reveal>
+        <h2>Principais competências</h2>
+        <div class="grid skills">
+          <div class="skill card-sm">
+            <h3>Firmware C/C++ & Python</h3>
+            <p>Desenvolvimento embarcado, drivers e protocolos.</p>
+          </div>
+          <div class="skill card-sm">
+            <h3>Integração de Sensores</h3>
+            <p>I²C, SPI, UART — calibração e validação.</p>
+          </div>
+          <div class="skill card-sm">
+            <h3>Condicionamento de Sinal</h3>
+            <p>Filtros, ADC, integridade e mitigação de ruído.</p>
+          </div>
+          <div class="skill card-sm">
+            <h3>Stack Web</h3>
+            <p>Next.js, TypeScript, Tailwind, PostgreSQL, Docker, AWS.</p>
+          </div>
+          <div class="skill card-sm">
+            <h3>Gestão & Produto</h3>
+            <p>PO/PM, priorização, métricas e entrega de valor.</p>
+          </div>
+          <div class="skill card-sm">
+            <h3>DevOps</h3>
+            <p>CI/CD, observabilidade e automações.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiência -->
+      <section id="experiencia" class="section" data-reveal>
+        <h2>Experiência</h2>
+        <div class="timeline">
+          <article class="item">
+            <div class="when">09/2025 — Atual · Agrovisia</div>
+            <h3>Bolsista FAPESP (TT-3) – Eletrônica & Software</h3>
+            <p>
+              Projeto de sensor para medição de nutrientes em solo/vinhaça. Aprimoramento eletrônico (condicionamento, ADC, integridade/ruído), firmware e integração de sensores, calibração e testes, análise de interferências e documentação técnica.
+            </p>
+          </article>
+          <article class="item">
+            <div class="when">05/2025 — 07/2025 · Alencar Consultorias</div>
+            <h3>Analista de Sistemas</h3>
+            <p>
+              Atuação entre produto e engenharia: requisitos, soluções técnicas, priorização e alinhamento com o negócio. Tecnologias: Next.js, TypeScript, Tailwind, PostgreSQL, AWS, Docker.
+            </p>
+          </article>
+          <article class="item">
+            <div class="when">08/2024 — 07/2025 · Alencar Consultorias</div>
+            <h3>Analista de Implantação de Software</h3>
+            <p>
+              Coordenação de implantações, personalização conforme cliente e suporte pós-implantação, com foco em qualidade e eficiência operacional.
+            </p>
+          </article>
+          <article class="item">
+            <div class="when">11/2024 — 06/2025 · Alutechnology</div>
+            <h3>CTO</h3>
+            <p>
+              Desenvolvimento de sistemas sob medida com foco em produto digital, escalabilidade e aderência ao negócio. Do discovery ao deploy, unindo engenharia e gestão de produto.
+            </p>
+          </article>
+          <article class="item">
+            <div class="when">08/2024 — 12/2024 · Univap</div>
+            <h3>Desenvolvedor de Sistemas</h3>
+            <p>
+              Estágio no desenvolvimento de um sistema MRP (PHP, Laravel, React, Tailwind, MySQL), cobrindo da concepção à implementação.
+            </p>
+          </article>
+          <article class="item">
+            <div class="when">05/2020 — 02/2024 · Três Paineiras</div>
+            <h3>Gerente Geral</h3>
+            <p>
+              Gestão operacional, controles e implementação de sistemas de gerenciamento para otimização de processos.
+            </p>
+          </article>
+          <article class="item">
+            <div class="when">06/2019 — 05/2020 · Três Paineiras</div>
+            <h3>Atendimento ao Cliente</h3>
+          </article>
+          <article class="item">
+            <div class="when">08/2022 — 12/2022 · Bayer (Projeto Univap)</div>
+            <h3>Consultor em Metodologias Ágeis</h3>
+            <p>
+              Organização de documentos com boas práticas, Ishikawa e 5S para otimização de processos e gestão documental.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Certificações -->
+      <section id="certificacoes" class="section card" data-reveal>
+        <h2>Certificações</h2>
+        <ul class="tags">
+          <li>Six Sigma Green Belt</li>
+          <li>POO (Java)</li>
+          <li>Git e Versionamento</li>
+          <li>DevOps Foundations</li>
+          <li>Instituto de Vencedores</li>
+        </ul>
+      </section>
+
+      <!-- Idiomas -->
+      <section id="idiomas" class="section card" data-reveal>
+        <h2>Idiomas</h2>
+        <ul class="tags">
+          <li>Português — Nativo</li>
+          <li>Inglês — Profissional</li>
+          <li>Francês — Básico</li>
+        </ul>
+      </section>
+
+      <!-- Contato -->
+      <section id="contato" class="section contact" data-reveal>
+        <h2>Contato</h2>
+        <div class="links-container">
+          <a href="https://wa.me/5512996181553?text=Olá%2C+gostaria+de+conversar%21" class="link-item whatsapp" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
+          <a href="https://instagram.com/lucas_lessa_" class="link-item instagram" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+          <a href="https://linkedin.com/in/lucas-lessa-engcomp/" class="link-item linkedin" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/lucasSlessa" class="link-item github" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://lucasslessa.github.io/WEB_portifolio/" class="link-item website" target="_blank" rel="noopener">
+            <i class="fas fa-globe"></i>
+            <span>Currículo</span>
+          </a>
+          <a href="mailto:lessalucas1102@gmail.com" class="link-item email" target="_blank" rel="noopener">
+            <i class="fas fa-envelope"></i>
+            <span>Email</span>
+          </a>
+          <a href="https://www.youtube.com/channel/UClhUD6IsF2npIu5JHDwsAGw" class="link-item youtube" target="_blank" rel="noopener">
+            <i class="fab fa-youtube"></i>
+            <span>YouTube</span>
+          </a>
+          <a href="https://discord.gg/7UtPVZzP" class="link-item discord" target="_blank" rel="noopener">
+            <i class="fab fa-discord"></i>
+            <span>Discord</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Lucas de Oliveira Lessa — São José dos Campos, SP</div>
+      <div class="awards">
+        <span class="trophy">🏆</span>
+        <span>1º lugar — Maratona de Programação</span>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
